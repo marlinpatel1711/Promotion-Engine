@@ -1,0 +1,30 @@
+[
+  {
+    "id": "SUMMER10",
+    "type": "percentage",
+    "value": 10,
+    "applicability": "cart",
+    "conditions": {
+      "minCartValue": 1000,
+      "userType": "new",
+      "category": ["electronics", "fashion"]
+    },
+    "startDate": "2025-08-01",
+    "endDate": "2025-08-31",
+    "stackable": true,
+    "priority": 1
+  },
+  {
+    "id": "FESTIVE500",
+    "type": "fixed",
+    "value": 500,
+    "applicability": "cart",
+    "conditions": {
+      "minCartValue": 2000
+    },
+    "startDate": "2025-10-01",
+    "endDate": "2025-10-31",
+    "stackable": false,
+    "priority": 2
+  }
+] 
